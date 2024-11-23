@@ -1,0 +1,9 @@
+domain=http://trade.ztzc-test.zszc.jianshicha.cn/api
+
+database.url.jy_biz_open_eval=jdbc:mysql://192.168.4.82:3306/jy_biz_open_eval?user=root&password=zszc
+#???????????
+ZTJGUserName=qidongxu
+ZTJGPassword=Cc123456
+#???????????
+HBJZUserName=zzlei1
+HBJZPassword=Cc123456

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="amazing-test" id="amazing-own"></dubbo:application>
+<!--    <dubbo:registry id="amazingtest-nacos" protocol="nacos" address="nacos://mse-7fa71990-nacos-ans.mse.aliyuncs.com:8848?namespace=edas-server"/>-->
+    <dubbo:registry id="amazingtest-nacos" protocol="nacos" address="nacos://nacos-in.test.shantaijk.cn:8848?namespace=edas-dev-server"/>
+    <dubbo:reference id="CustomerLoginInfoService" check="false" interface="com.stjk.cif.core.api.service.CustomerLoginInfoService" timeout="30000"/>
+    <dubbo:reference id="AuthService" check="false" interface="com.stjk.cif.login.api.login.AuthService" timeout="30000"/>
+    <dubbo:reference id="LoginService" check="false" interface="com.stjk.cif.login.api.login.LoginService" timeout="30000"/>
+    <dubbo:reference id="workStateService" check="false" interface="com.stjk.doctorcenter.client.WorkStateService" timeout="3000" url="dubbo://10.19.127.197:20880"></dubbo:reference>
+</beans>
