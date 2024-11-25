@@ -5,7 +5,7 @@
         <listener class-name="com.common.testng.ExtentTestNGIReporterListener"/>
         <listener class-name="com.common.testng.TestResultListener"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="E:/code/test-group">
+    <test verbose="1" preserve-order="true" name="ZSZC-autotest">
         <classes>
             <class name="com.test.demo.ZTJGTest">
                 <methods>

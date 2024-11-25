@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[PassedTests = queryWinningBidProjectTest]]>
+    </line>
+    <line>
+      <![CDATA[PassedTests = queryWinningBidProjectTest]]>
+    </line>
+    <line>
+      <![CDATA[PassedTests = queryWinningBidProjectTest]]>
+    </line>
+    <line>
+      <![CDATA[PassedTests = queryWinningBidProjectTest]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="4130" started-at="2024-11-25T00:43:34Z" finished-at="2024-11-25T00:43:38Z">
+    <groups>
+    </groups>
+    <test name="ZSZC-autotest" duration-ms="4130" started-at="2024-11-25T00:43:34Z" finished-at="2024-11-25T00:43:38Z">
+      <class name="com.test.demo.ZTJGTest">
+        <test-method status="PASS" signature="getLoginToken()[pri:0, instance:com.test.demo.ZTJGTest@90f6bfd]" name="getLoginToken" is-config="true" duration-ms="2124" started-at="2024-11-25T08:43:34Z" description="获取tenderee-招标人的token" finished-at="2024-11-25T08:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginToken -->
+        <test-method status="PASS" signature="queryWinningBidProjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.demo.ZTJGTest@90f6bfd]" name="queryWinningBidProjectTest" duration-ms="436" started-at="2024-11-25T08:43:36Z" description="根据项目名称、审核状态，搜索中标项目" data-provider="testData" finished-at="2024-11-25T08:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryWinningBidProjectTest -->
+        <test-method status="PASS" signature="queryWinningBidProjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.demo.ZTJGTest@90f6bfd]" name="queryWinningBidProjectTest" duration-ms="648" started-at="2024-11-25T08:43:37Z" description="根据项目名称、审核状态，搜索中标项目" data-provider="testData" finished-at="2024-11-25T08:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[科菲]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryWinningBidProjectTest -->
+        <test-method status="PASS" signature="queryWinningBidProjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.demo.ZTJGTest@90f6bfd]" name="queryWinningBidProjectTest" duration-ms="465" started-at="2024-11-25T08:43:37Z" description="根据项目名称、审核状态，搜索中标项目" data-provider="testData" finished-at="2024-11-25T08:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[autoTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryWinningBidProjectTest -->
+        <test-method status="PASS" signature="queryWinningBidProjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.demo.ZTJGTest@90f6bfd]" name="queryWinningBidProjectTest" duration-ms="450" started-at="2024-11-25T08:43:38Z" description="根据项目名称、审核状态，搜索中标项目" data-provider="testData" finished-at="2024-11-25T08:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryWinningBidProjectTest -->
+      </class> <!-- com.test.demo.ZTJGTest -->
+    </test> <!-- ZSZC-autotest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
